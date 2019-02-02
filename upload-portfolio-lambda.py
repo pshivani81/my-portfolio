@@ -8,8 +8,8 @@ def lambda_handler(event, context):
     sns = boto3.resource('sns')
     topic= sns.Topic('arn:aws:sns:us-east-1:061924451583:deployPortfolioTopic')
     location = {
-        "bucketName":'portfoliobuilde.swipartners.com',
-        "objectKey" :'portfoliobuilde.zip'
+        "bucketName":'portfoliobuild.swipartners.com',
+        "objectKey" :'portfoliobuild.zip'
             }
 
     try:
