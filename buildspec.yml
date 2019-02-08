@@ -5,11 +5,11 @@ phases:
     commands:
       - npm install
       - npm run dev
-      
+
 artifacts:
    files:
      - index.html
      - favicon.ico
      - styles/main.css
      - images/*
-     - dist/bundle.js
+     - /dist/bundle.js
